@@ -8,8 +8,8 @@ use crate::args::{JarType, ReleaseType};
 
 mod args;
 
-const MANIFEST_URL: &str = "https://launchermeta.mojang.com/mc/game/version_manifest.json";
-const BUG_REPORT_URL: &str = "https://github.com/marblenix/minecraft_downloader/issues/new";
+const MANIFEST_URL: &str = "https://piston-meta.mojang.com/mc/game/version_manifest.json";
+const BUG_REPORT_URL: &str = "https://github.com/willhulme/minecraft_downloader/issues/new";
 
 #[derive(Debug, Clone, PartialEq, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
